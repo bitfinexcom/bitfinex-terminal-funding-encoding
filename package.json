@@ -1,0 +1,32 @@
+{
+  "name": "bitfinex-terminal-funding-encoding",
+  "version": "1.0.0",
+  "description": "The key and value encodings for the funding stats Dazaar db",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard",
+    "protobuf": "protocol-buffers schema.proto -o messages.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitfinexcom/bitfinex-terminal-funding-encoding.git"
+  },
+  "keywords": [
+    "bitfinex",
+    "terminal"
+  ],
+  "author": "Bitfinex",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/bitfinexcom/bitfinex-terminal-funding-encoding/issues"
+  },
+  "homepage": "https://github.com/bitfinexcom/bitfinex-terminal-funding-encoding#readme",
+  "devDependencies": {
+    "protocol-buffers": "^4.2.0",
+    "standard": "^15.0.1"
+  },
+  "dependencies": {
+    "lexicographic-integer": "^1.1.0",
+    "protocol-buffers-encodings": "^1.1.1"
+  }
+}

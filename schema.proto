@@ -1,0 +1,7 @@
+message Entry {
+  required uint64 timestamp = 1;
+  required double frr = 2;
+  required double avgPeriod = 3;
+  required double fundingAmount = 4;
+  required double fundingAmountUsed = 5;
+}
